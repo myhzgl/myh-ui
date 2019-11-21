@@ -1,0 +1,21 @@
+.m-button {
+  color: var(--button-color);
+  font-size: var(--button-font-size);
+  height: var(--button-height);
+  padding: 0 1rem;
+  border-radius: var(--button-radius);
+  border: 1px solid var(--border-color);
+  background: var(--button-bg);
+}
+.m-button:hover {
+  border-color: var(--button-border-color-hover);
+  color: var(--button-color-hover);
+  background-color: var(--button-bg-hover);
+}
+.m-button:active {
+  border-color: var(--button-border-color-active);
+  color: var(--button-color-active);
+}
+.m-button:focus {
+  outline: none;
+}

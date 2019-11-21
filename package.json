@@ -1,0 +1,29 @@
+{
+  "name": "m-ui",
+  "version": "1.0.0",
+  "description": "this is a vue components project",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-ui": "parcel build ./src/app.js --no-cache --no-minify"
+  },
+  "keywords": [
+    "m-ui",
+    "vue"
+  ],
+  "author": "756765479@qq.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.2",
+    "parcel": "^1.12.4",
+    "sass": "^1.23.7",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "alias": {
+    "vue" : "./node_modules/vue/dist/vue.common.js"
+  }
+}
